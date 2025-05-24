@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WattPro – Smarter, Faster Trading</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0b0f1a;
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(135deg, #002233, #00bfa6);
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 40px;
+      font-weight: 500;
+      color: #ffffff;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0 0 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      padding: 14px 28px;
+      font-size: 16px;
+      background-color: #00e6c0;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00cfae;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .features, .markets {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+
+    .features div, .markets div {
+      background: #1a1f2b;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #2a2f3b;
+    }
+
+    .features h3, .markets h3 {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #111722;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0b0f1a;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">WattPro</div>
+    <h1>Smarter, Faster Trading</h1>
+    <p>Trade like a pro with AI-powered signals, social strategies, and ultra-low fees.</p>
+    <button class="btn">Get Started</button>
+  </header>
+
+  <section>
+    <h2 style="text-align:center;">Unique Features</h2>
+    <div class="features">
+      <div>
+        <h3>AI Trading Signals</h3>
+        <p>Harness the power of AI to make smarter trades, faster.</p>
+      </div>
+      <div>
+        <h3>Social Trading</h3>
+        <p>Copy strategies from top traders in real time.</p>
+      </div>
+      <div>
+        <h3>Advanced Charts</h3>
+        <p>Professional-grade tools for deep technical analysis.</p>
+      </div>
+      <div>
+        <h3>Low Fees</h3>
+        <p>Keep more profits with our ultra-competitive pricing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">Supported Markets</h2>
+    <div class="markets">
+      <div><h3>Forex</h3></div>
+      <div><h3>Stocks</h3></div>
+      <div><h3>Cryptocurrencies</h3></div>
+      <div><h3>Commodities</h3></div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <h2>Join Thousands of Smart Traders</h2>
+    <button class="btn">Create Your Account</button>
+  </div>
+
+  <footer>
+    &copy; 2025 WattPro. All rights reserved. | Privacy Policy | Terms of Use
+  </footer>
+
+</body>
+</html>
